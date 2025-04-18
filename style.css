@@ -1,0 +1,468 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body {  
+    font-family: "Montserrat";
+    overflow-x: hidden;
+}
+
+
+/* Bildstyles */
+#Logo {
+    width: 30vw;
+    margin-left: 1vw;
+    margin-top: 0.8vw;
+    max-width: 700px;
+  }
+#Gruppenbild {
+    width: 77.5vw;
+    margin-top: 2.1vw;
+  }
+#Fest1, 
+#Fabian {
+    width: 48.024vw;
+    margin-top: 1.5vw;
+  }
+
+  #Fest2,
+  #Spielplatz,
+  #Zuweg {
+    width: 27.5vw;
+    margin-top: 2vw;
+  }
+
+  #Bench
+  {
+    width: 27.5vw;
+    margin-top: 1.5vw;
+  }
+
+
+/* Containers */
+.bild-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: left; 
+    text-align: left; 
+  } 
+.bild-container img {
+    margin-top: 2.1vw;
+    margin-left: 20vw;
+  } 
+.bild-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    gap: 2vw; 
+    margin-left: 20vw; 
+    align-items: baseline; 
+  }
+  .bild-container3 {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 2vw; 
+    margin-left: 20vw; 
+    margin-top: 0.2vw;
+  }
+.bild-text-container {
+    position: relative;
+  }
+.bild-text-container2 {
+    position: relative;
+    margin-left: 3.8vw;
+    margin-top: -0.6vw;
+  }
+.container-allg-horizont {
+    display: flex;
+    align-items: left;
+  }
+.container-allg-horizont2 {
+    display: flex;
+    align-items: left;
+    margin-top: 2.7vw;
+  }  
+.text-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: -1.6vw;
+    margin-bottom: -1vw;
+  } 
+.text-block {
+    margin-left: 2vw;
+    margin-right: 1vw;
+  }
+
+
+
+/* Fontstyles */
+.text,
+.text2
+    {
+    color: #676EA5;
+    font-style: normal;
+    font-weight: 420;
+    font-size: clamp(12px, 1.389vw, 30px);
+    line-height: clamp(18px, 2.1vw, 40px);
+}
+.text
+    {
+    width: clamp(330px, 46.296vw, 1200px);
+    max-width: 100vw !important;
+    }
+.textimpres
+    {
+    color: #676EA5;
+    font-style: normal;
+    font-weight: 420;
+    font-size: clamp(12px, 1.389vw, 30px);
+    line-height: clamp(18px, 2.1vw, 40px);
+    width: clamp(330px, 48.296vw, 1200px);
+    }
+.textkursiv {
+    font-style: italic;
+    font-weight: 430;
+    margin-left: -0.15vw;
+  } 
+.textgros {
+    color: #676EA5;
+    font-style: normal;
+    font-weight: 440;
+    font-size: clamp(21px, 2.513vw, 56px);
+    margin-left: 1vw;
+    margin-bottom: -1vw;
+    width: fit-content;
+    max-width: 100%;
+}
+.textgros2,
+.textgros3 {
+    color: #676EA5;
+    font-style: normal;
+    font-weight: 440;
+    font-size: clamp(21px, 2.513vw, 56px);
+    margin-left: 1vw;
+    margin-bottom: -0.6vw;
+    margin-top: 4vw;
+    width: fit-content;
+    max-width: 100%;
+}
+
+.textgros3 {
+    font-style: italic;
+    margin-top: 2.9vw;
+}
+.textgrosimpress {
+    color: #676EA5;
+    font-style: normal;
+    font-weight: 440;
+    font-size: clamp(21px, 2.513vw, 56px);
+    margin-left: 20vw;
+    margin-top: 2.8vw;
+    margin-bottom: -1vw;
+    width: fit-content;
+    max-width: 100%;
+}
+
+
+.indexx,
+.indexx3 {
+    font-style: italic;
+    font-size: 0.97vw;
+    color: #676EA5;
+    margin-top: 0.7vw;
+    text-align: left;
+  }
+.indexx {
+    margin-left: 20vw;
+  }
+.indexx3 {
+    margin-left: -0.1vw;
+    left: 0;
+    line-height: 1.3vw;
+    position: absolute; 
+    margin-top: 0.5vw;
+  }
+.indexx2 {
+    position: absolute; 
+    bottom: 18.519vw; 
+    left: 0;
+    font-style: italic;
+    font-size: 0.97vw;
+    line-height: 1.3vw;
+    color: #676EA5;
+    width: 100%; 
+    text-align: left;
+  }
+
+
+
+/* Positionstyles */
+.positionA {
+    margin-left: 20vw;
+    margin-top: 2.1vw;
+}   
+.positionB {
+    margin-left: 20vw;
+    position: relative;
+}   
+.positionC {
+    margin-left: 20vw;
+    margin-top: 0.8vw;
+}   
+
+/* Navigation */
+.navbar {
+    position: absolute; 
+    top: 2vw; 
+    right: 2vw; 
+    display: flex; 
+    gap: 2vw;
+  }
+  
+.navlink {
+    color: #676EA5; 
+    text-decoration: none; 
+    font-size: clamp(12px, 1.19vw, 30px);
+    position: relative;
+  }
+  
+.navlink::after {
+    content: ''; 
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 0.112vw; 
+    background-color: #676EA5; 
+    transform: scaleX(0); 
+    transform-origin: bottom right; 
+    transition: transform 0.5s ease; 
+  }
+  
+.navlink:hover::after {
+    transform: scaleX(1); 
+    transform-origin: bottom left;
+  }
+
+  .text-animated {
+    display: inline-block;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 430;
+    transition: font-family 3s ease-in-out;
+  }
+  
+  .text-animated:hover {
+    font-weight: 430;
+    font-style: italic;
+  }
+
+.maillink {
+    color: #676EA5;
+}
+
+/* Footer */
+
+.footer {
+    color: #676EA5;;
+    font-size: 0.97vw;
+    margin-top: 9vw;
+    border-top: 0.05vw solid #676EA5;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 2vw;
+    margin-left: 18vw;
+  } 
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.33vw;
+}
+  .footer-links a {
+    color: #676EA5;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+
+
+  @media screen and (max-width: 640px) {
+
+    .navbar {
+        display: none;
+      }
+
+    body, html {
+      width: 100%;
+      overflow-x: hidden;
+      max-width: 97% !important;
+      align-items: center;
+      margin-left: 1.5vw;
+    }
+  
+    #Logo {
+        width: 16rem;
+        margin-bottom: 0.8rem;
+      }
+    
+    /* Alles bekommt schmalen Seitenabstand */
+    .positionA,
+    .positionB,
+    .positionC,
+    .textgros,
+    .textgros2,
+    .textgros3,
+    .text-container,
+    .text-block,
+    .container-allg-horizont,
+    .container-allg-horizont2,
+    .footer-content,
+    .indexx,
+    .bild-container,
+    .bild-container img,
+    .bild-container2,
+    .bild-container3,
+    .bild-text-container2 {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      max-width: 100vw;
+      width: 100%;
+    }
+
+    #Fest2,
+    #Gruppenbild,
+    #Fest1,
+    #Fabian,
+    #Spielplatz,
+    #Zuweg,
+    #Bench {
+      width: 100%;
+    }
+
+    #Fest1 {
+        margin-top: 1rem;
+      }
+
+    #Fest2  {
+        display: none;
+      }
+    #Fabian  {
+        display: none;
+      }
+    
+  
+    /* Container stapeln sich */
+    .container-allg-horizont,
+    .container-allg-horizont2,
+    .bild-container2,
+    .bild-container3 {
+      flex-direction: column !important;
+      align-items: flex-start;
+      justify-content: flex-end;
+    }    
+    
+    /* Footer */
+    .footer-content {
+      margin-left: 0;
+      text-align: left;
+      align-items: left;
+      font-size: 0.5rem;
+    }
+  
+    .indexx,
+    .indexx2,
+    .indexx3 {
+      font-size: 0.5rem;
+      line-height: 0.7rem;
+    }
+
+    .indexx {
+      text-align: left;
+      max-width: 100vw !important;
+      margin-top: 2vw;
+      margin-bottom: 1vw;
+    }
+
+    .indexx3 {
+      text-align: left;
+      max-width: 100vw !important;
+      margin-top: 0.3vw;
+      position: relative;
+    }
+    .indexx2 {
+        color: #676EA5;
+        text-align: left;
+        width: 100%;
+        position: static;
+        margin-top: 0vw;
+      }
+      .bild-container {
+        order: 2;
+      }  
+      .bild-text-container {
+        order: 2;
+        margin-top: 0vw;
+      }
+      
+    .indexxf{
+        display: none;
+    } 
+    
+    .positionA{
+        margin-left: 0.35vw !important;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    } 
+
+    .positionC{
+        margin-bottom: 1rem;
+    }  
+    .positionP{
+        margin-bottom: 0.3vw;
+    }
+    .positionM{
+        margin-bottom: -0.2vw;
+    }     
+
+    .positionD{
+        margin-top: 0.5rem;
+    }
+
+    .positionG{
+        margin-top: 1rem;
+        margin-bottom: 0.1vw;
+    }
+    .positionE{
+        margin-top: 0.5rem;
+        margin-left: 0.35vw !important;
+    }
+    .positionH{
+        margin-top: 1rem;
+    }
+    .positionJ{
+        margin-top: 1rem;
+    }
+    .positionL{
+        margin-top: 0.7rem;
+        margin-left: -0.35vw !important;
+    }
+    .positionW{
+        margin-top: 0.5rem;
+        margin-left: 0.35vw !important;
+    }
+    .positionQ{
+        margin-bottom: 0.5rem;
+    }
+    .textgrosimpress{
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }   
+  }
