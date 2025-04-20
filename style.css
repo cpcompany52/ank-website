@@ -140,7 +140,7 @@ body {
     color: #676EA5;
     font-style: normal;
     font-weight: 440;
-    font-size: clamp(21px, 2.513vw, 56px);
+    font-size: clamp(23px, 2.513vw, 56px);
     margin-left: 1vw;
     margin-bottom: -0.6vw;
     margin-top: 4vw;
@@ -438,7 +438,7 @@ body {
 
     .positionG{
         margin-top: 1rem;
-        margin-bottom: 0.1vw;
+        margin-bottom: -0.8vw;
     }
     .positionE{
         margin-top: 0.5rem;
