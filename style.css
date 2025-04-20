@@ -156,7 +156,7 @@ body {
     color: #676EA5;
     font-style: normal;
     font-weight: 440;
-    font-size: clamp(21px, 2.513vw, 56px);
+    font-size: clamp(23px, 2.513vw, 56px);
     margin-left: 20vw;
     margin-top: 2.8vw;
     margin-bottom: -1vw;
