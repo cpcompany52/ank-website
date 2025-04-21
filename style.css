@@ -103,8 +103,8 @@ body {
     color: #676EA5;
     font-style: normal;
     font-weight: 420;
-    font-size: clamp(15px, 1.45vw, 32px);
-    line-height: clamp(22px, 2.15vw, 42px);
+    font-size: clamp(16px, 1.45vw, 32px);
+    line-height: clamp(24px, 2.15vw, 42px);
 }
 .text
     {
@@ -116,8 +116,8 @@ body {
     color: #676EA5;
     font-style: normal;
     font-weight: 420;
-    font-size: clamp(15px, 1.45vw, 32px);
-    line-height: clamp(22px, 2.15vw, 42px);
+    font-size: clamp(16px, 1.45vw, 32px);
+    line-height: clamp(24px, 2.15vw, 42px);
     width: clamp(330px, 48.296vw, 1200px);
     }
 .textkursiv {
@@ -140,7 +140,7 @@ body {
     color: #676EA5;
     font-style: normal;
     font-weight: 440;
-    font-size: clamp(23px, 2.513vw, 56px);
+    font-size: clamp(24px, 2.513vw, 56px);
     margin-left: 1vw;
     margin-bottom: -0.6vw;
     margin-top: 4vw;
@@ -156,7 +156,7 @@ body {
     color: #676EA5;
     font-style: normal;
     font-weight: 440;
-    font-size: clamp(23px, 2.513vw, 56px);
+    font-size: clamp(24px, 2.513vw, 56px);
     margin-left: 20vw;
     margin-top: 2.8vw;
     margin-bottom: -1vw;
