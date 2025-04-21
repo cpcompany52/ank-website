@@ -346,7 +346,11 @@ body {
         color: #676EA5;
         font-style: normal;
         font-weight: 430;
-    }  
+    }
+    .textkmobil {
+    font-style: italic;
+    font-weight: 430;
+  }   
 
     .textgros,
     .textgros2,
