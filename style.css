@@ -128,7 +128,7 @@ body {
 .textgros {
     color: #676EA5;
     font-style: normal;
-    font-weight: 440;
+    font-weight: 450;
     font-size: clamp(28px, 2.513vw, 56px);
     margin-left: 1vw;
     margin-bottom: -1vw;
@@ -139,7 +139,7 @@ body {
 .textgros3 {
     color: #676EA5;
     font-style: normal;
-    font-weight: 440;
+    font-weight: 450;
     font-size: clamp(28px, 2.513vw, 56px);
     margin-left: 1vw;
     margin-bottom: -0.6vw;
