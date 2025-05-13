@@ -249,12 +249,12 @@ body {
     display: inline-block;
     position: relative;
     font-family: 'Montserrat', sans-serif;  
-    font-weight: 430;
+    font-weight: 450;
     transition: font-family 3s ease-in-out;
   }
   
   .text-animated:hover {
-    font-weight: 430;
+    font-weight: 450;
     font-style: italic;
   }
 
