@@ -209,7 +209,11 @@ body {
 .positionC {
     margin-left: 20vw;
     margin-top: 0.8vw;
-}   
+}
+.positionX{
+  margin-left: 20vw;
+  margin-top: 2rem;
+}
 
 /* Navigation */
 .navbar {
@@ -487,5 +491,8 @@ body {
     .textgrosimpress{
         margin-left: 0;
         margin-top: 1.5rem;
-    }   
+    }
+    .positionX{
+        margin-top: 1rem;
+    }
   }
