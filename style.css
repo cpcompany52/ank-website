@@ -39,6 +39,20 @@ body {
     margin-top: 1.5vw;
   }
 
+#Caritaslogo
+{
+  width: auto;
+  height: 8vw;
+  margin-top: 1.5vw;
+}
+
+#Stiftunglogo
+{
+  margin-top: 1.5vw;
+  width: auto;
+  height: 8vw;
+}
+
 
 /* Containers */
 .bild-container {
@@ -47,6 +61,12 @@ body {
     align-items: left; 
     text-align: left; 
   } 
+.bild-container-impres {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  margin-left: 20vw;
+} 
 .bild-container img {
     margin-top: 2.1vw;
     margin-left: 20vw;
@@ -316,6 +336,20 @@ body {
         width: 16rem;
         margin-bottom: 1.3rem;
       }
+      
+      #Caritaslogo
+{
+  width: auto;
+  height: 15vw;
+  margin-top: 1.5vw;
+}
+
+#Stiftunglogo
+{
+  margin-top: 1.5vw;
+  width: auto;
+  height: 15vw;
+}
     
     /* Alles bekommt schmalen Seitenabstand */
     .positionA,
@@ -334,7 +368,8 @@ body {
     .bild-container img,
     .bild-container2,
     .bild-container3,
-    .bild-text-container2 {
+    .bild-text-container2,
+    .bild-container-impres {
       margin-left: 0 !important;
       margin-right: 0 !important;
       max-width: 100vw;
